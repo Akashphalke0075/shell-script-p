@@ -2,9 +2,14 @@
 
 welcome to shell scripting.
 
+i am wring script here
+
 in this repo you can find scripts and methodology to learn bash
 all the automation related to project can be see in the respective project.
 
+----
+
+end of the script
 
 
 
