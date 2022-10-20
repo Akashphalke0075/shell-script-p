@@ -1,16 +1,15 @@
-#linux command
+######## linux command
 
-how to connect to server?
+# how to connect to server?
 
 ssh username@ip
--------------------------------
 
-touch (make empty files)
--------------------------------
+# touch (make empty files)
+
 ls -l  (display long list)
---------------------------
+
 mkdir  (to make directory)
----------------------------
+
 cd   (change directory/ switch directory)
 
 cd .. (one directory back)
