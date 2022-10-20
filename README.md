@@ -18,16 +18,16 @@ cd - (goes to previous path)
 
 * cat (command use to read the content of the file)
 
-* 
-rmdir (to delete directory)
+
+* rmdir (to delete directory)
+
 rm  (delete file)
 
 * mv (rename the file")
 
-* 
-sudo su -  ( change from normal user to root user #) 
+* sudo su -  ( change from normal user to root user #) 
 -sudo command gives administrative task access
-- only root user has administrative permissions
+-only root user has administrative permissions
 
 * pwd  (present working directory)
 
