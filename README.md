@@ -6,7 +6,7 @@ ssh username@ip
 
 * touch (make empty files)
 
-* ls -l  (display long list)
+* ls -l /ls- ltr  (display long list)
 
 * mkdir  (to make directory)
 
@@ -17,6 +17,8 @@ cd .. (one directory back)
 cd - (goes to previous path)
 
 * cat (command use to read the content of the file)
+
+this is end
 
 
 * rmdir (to delete directory)
@@ -36,3 +38,8 @@ rm  (delete file)
 * cat /proc/meminfo  (it gives memory related info)
 
 * fdisk -l   (to see list of disk)
+
+
+this is enddd
+
+----------
