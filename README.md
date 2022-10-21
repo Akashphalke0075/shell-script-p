@@ -31,15 +31,17 @@ rm  (delete file)
 
 * uptime (to check machine is running state from how much time)
 
-* cd ~ 
-
 * cat /proc/meminfo  (it gives memory related info)
 
 * fdisk -l   (to see disk related info.)
 
-* sudo su -  ( change from normal user to root user #) 
--sudo command gives administrative task access
+* sudo su -  ( change from normal user to root user #)
+use exit to normal user
+
+-sudo command gives administrative task access temporary
 -only root user has administrative permissions
+
+* cd ~ (u will go to home directory)
 
 * cp (copy the file/ for taking backup of the file)
 
@@ -79,6 +81,14 @@ cut -d : -f1 /etc/passwd
 
 
 * Ami backup term)
+
+* useradd
+ *groupadd 
+
+ * how to add user to group
+ sudo usermod -a username -G groupname
+
+* /etc/sudoer
 
 
 ----------
