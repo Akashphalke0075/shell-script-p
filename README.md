@@ -33,13 +33,13 @@ rm  (delete file)
 
 * pwd  (present working directory)
 
-* uptime (to check machine is up from how much time)
+* uptime (to check machine is up from how much time)..
 
 * cat /proc/meminfo  (it gives memory related info)
 
 * fdisk -l   (to see list of disk)
 
 
-this is enddd
+thgit 
 
 ----------
