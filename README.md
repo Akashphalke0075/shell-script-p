@@ -64,8 +64,8 @@ we can give numbering by cat -n /etc/passwd
 
 * tac  (reverse order)
 
-* tail
-* head
+* tail ( only last 10 line)
+* head (only top 10 line)
 
 * how to print last 3 lines?
 tail -n 3 filename
