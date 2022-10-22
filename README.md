@@ -91,19 +91,53 @@ ex. cut -d : -f1 /etc/passwd
 ex.  cut -d : -f4-9 /etc/passwd
 
 
-
 * vim
 
+* how to add user?
+sudo useradd name
+
+* how to check propertise of user?
+syntax= id username
+
+* /etc/sudoers (here you can give permission to users)
+
+* how to make a group?
+syntax= sudo groupadd groupname
+
+* how to add user to group??
+sudo usermod -a username -G groupname
+
+* top
+* ps -ef
+* kill
+* ip a  (privat ip)
+* curl ifconfig.co (public ip)
+
+* how to download anything from internet?
+Syntax=  wget url
+ex. tomcat
+
+* how to untar the tar file?
+syntax tar -xf filename
+
+* pipe (|)
+ex. cat /etc/passwd | head -n 4
+
+* how to shutdown system ?
+sudo init 0
+
+* how to restart/reboot the machine?
+sudo init 6
+
+*how to start service?
+sudo systemctl start/stop/restart serviceName
+
+* how to check status of the service we started?
+sudo systemctl status serviceName
 
 * Ami backup term)
 
-* useradd
- *groupadd 
 
- * how to add user to group
- sudo usermod -a username -G groupname
-
-* /etc/sudoer
 
 
 ----------
