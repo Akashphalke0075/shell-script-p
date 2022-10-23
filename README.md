@@ -98,7 +98,7 @@ esc- escape mode
 :q!    (quit the file without saving)
 
 * how to replace words in file?
-:%s/word/newword  - (1st line 1st occurance)
+:%s/word/newword  - (everyline 1st occurance)
 :%s/word/newword/g - (every word in whole file)
 :/s/word/newword    - (1st word on selected line)
 :/s/word/newword/g  - (every word in selected line)
