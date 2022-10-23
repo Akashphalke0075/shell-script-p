@@ -92,14 +92,28 @@ ex.  cut -d : -f4-9 /etc/passwd
 
 
 * vim
+i- insert mode
+esc- escape mode
+:wq!  (save the file)
+:q!    (quit the file without saving)
+
+* how to replace words in file?
+:%s/word/newword  - (1st line 1st occurance)
+:%s/word/newword/g - (every word in whole file)
+:/s/word/newword    - (1st word on selected line)
+:/s/word/newword/g  - (every word in selected line)
 
 * how to add user?
 sudo useradd name
+
+* how to set passwd for user?
+sudo passwd username
 
 * how to check propertise of user?
 syntax= id username
 
 * /etc/sudoers (here you can give permission to users)
+sudo vim /etc/sudoers
 
 * how to make a group?
 syntax= sudo groupadd groupname
@@ -112,6 +126,7 @@ sudo usermod -a username -G groupname
 * kill
 * ip a  (privat ip)
 * curl ifconfig.co (public ip)
+
 
 * how to download anything from internet?
 Syntax=  wget url
