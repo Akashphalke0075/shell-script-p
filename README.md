@@ -152,7 +152,20 @@ sudo systemctl status serviceName
 
 * Ami backup term)
 
+* rwx   rwx     rwx
+  user  group  others
 
+r = 4
+w = 2
+e = 1
 
+* how to change centos group to devops group?
+ sudo chown centos:devops filename
+
+ * how to give permission?
+ ex.  sudo chmod 754 filename
+
+* how to give permission to directory and files present in it?
+  sudo chmod -R 754 filename
 
 ----------
