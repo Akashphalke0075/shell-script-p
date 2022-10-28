@@ -150,6 +150,10 @@ sudo systemctl start/stop/restart serviceName
 * how to check status of the service we started?
 sudo systemctl status serviceName
 
+* netstat --l
+ex. netstat -tulpn  (gives network related info / port related info)
+sudo netastat -tulpn (shows process also as a root user)
+
 * Ami backup term)
 
 * rwx   rwx     rwx
@@ -157,10 +161,10 @@ sudo systemctl status serviceName
 
 r = 4
 w = 2
-e = 1
+x = 1
 
 * how to change centos group to devops group?
- sudo chown centos:devops filename
+ sudo chown owner:group filename/directory name
 
  * how to give permission?
  ex.  sudo chmod 754 filename
