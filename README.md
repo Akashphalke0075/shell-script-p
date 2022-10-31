@@ -25,6 +25,9 @@ this is end
 
 rm  (delete file)
 
+* how to delete forcefully?
+rm -rf filename
+
 * mv (rename the file") or (it's like cut and paste)
 mv 
 
@@ -154,16 +157,17 @@ sudo systemctl status serviceName
 ex. netstat -tulpn  (gives network related info / port related info)
 sudo netastat -tulpn (shows process also as a root user)
 
-* Ami backup term)
 
 * rwx   rwx     rwx
   user  group  others
 
-r = 4
-w = 2
-x = 1
+r (read)  = 4
+w (write) = 2
+x (execute) = 1
 
-* how to change centos group to devops group?
+ 4+2+1= 7 means all permissions
+
+* +how to change centos group to devops group?
  sudo chown owner:group filename/directory name
 
  * how to give permission?
