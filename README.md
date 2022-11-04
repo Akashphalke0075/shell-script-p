@@ -177,3 +177,6 @@ x (execute) = 1
   sudo chmod -R 754 filename
 
 ----------
+
+
+all done final
