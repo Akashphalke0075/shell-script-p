@@ -1,0 +1,22 @@
+Documentaion to setup registration application on servers.
+In total we do require three servers running different components on the server.
+
+Web Server
+Application Server
+Database Server
+
+Following are the softwares which are used for different services.
+
+Apache Web Server for Web Server
+Apache Tomcat for Application Server
+MariaDB for Database Server
+
+Following the Diagram been referred to setup application
+
+Following are the technicalities for the tools
+
+Apache Web Server 2.4.x
+Tomcat App Server 8.5.x
+MariaDB Server 10.x
+
+OS can be either Ubuntu or CentOS, But this document would be on Centos 7.
