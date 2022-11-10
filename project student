@@ -20,3 +20,16 @@ Tomcat App Server 8.5.x
 MariaDB Server 10.x
 
 OS can be either Ubuntu or CentOS, But this document would be on Centos 7.
+
+
+#1. Ensure you use the AMI DevOps-LabImage-CentOS7 in North.Virginia Region and this AMI works with username and password ( centos / DevOps321 ), without which lot of challenges would be coming up.
+Install Web Server
+
+$ sudo yum install httpd -y
+
+
+Update proxy config , Pointing to application server
+
+$ cat /etc/httpd/conf.d/app-proxy.conf 
+ProxyPass "/student" "http://APP-SERVER-IPADDRESS:8080/student"
+ProxyPassReverse "/student"  "http://APP-SERVER-IPADDRESS:8080/student"
