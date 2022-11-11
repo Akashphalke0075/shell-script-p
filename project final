@@ -2,6 +2,8 @@
 https://learndevopswithaws.s3.ap-south-1.amazonaws.com/index.html
 
 # backend server
+tomcat 8
+
 https://learndevopswithaws.s3.ap-south-1.amazonaws.com/student.war
 
 proxy = restrict content from inside to outside
@@ -10,3 +12,34 @@ revers proxy = restrict content from outside to inide
 cat /etc/httpd/conf.d/
 
 sudo systemctl daemon-reload
+sudo systemctl restart httpd
+
+# database
+
+sudo yum install mariadb-server -y
+enable
+start
+
+curl https://devops-cloudcareers.s3.ap-south-1.amazonaws.com/studentapp-ui-proj.sql
+
+sudo mysql
+show databases;
+
+how to connection of databases?
+
+<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
+               maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               username="USERNAME" password="PASSWORD" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://DB-ENDPOINT:3306/DATABASE"/>
+
+/bin
+./shutdown.sh
+./startup.sh
+
+connect driver db to backend
+
+https://learndevopswithaws.s3.ap-south-1.amazonaws.com/mysql-connector.jar
+
+/bin
+./shutdown.sh
+./startup.sh
